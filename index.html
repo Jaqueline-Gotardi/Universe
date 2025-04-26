@@ -1,0 +1,117 @@
+            <!DOCTYPE html>
+          <html long="en">
+            <head>
+              <meta charset="UTF-8">
+              <meta http-equiv="x-UA-Compatible"  content="IE=edge">
+              <title>Tela Inicial</title>
+                    
+               <meta name="viewport" content="width=device-width">
+            </head>
+
+              <div class="container">
+                 <h3>Tela de Login</h3>
+
+                        <img src="./src/imagens/tela inicial.jpg" id="interface">
+                      <div id="login">
+                        <p> <b><label for="username" id="usuario">Usuário:</label></b>
+                        <input type="text" id="username" placeholder="digite o nome do usuário"/></p>
+
+                        <p><b><label for="email" id="email">Email:</label></b>
+                        <input type="text"  placeholder="digite seu email"/></p>
+
+                      <p> <a href="tela2.html"><button type="submite" id="button">Entrar</button></a></p>
+                      </div>
+                
+              </div>
+          </html>
+          <style>
+               body{
+                    background:#ADDCC8;
+                    font-family:Times new roman;
+                    
+                    }
+
+                    #button{
+                   position: relative;
+                      top: 10px;
+                      left: 100px;
+                      
+                    
+
+                    }
+
+                    #login{
+                    position: absolute;
+                    top: 70%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    }
+                  
+                    #usuario{
+                      color: white;
+                      left: auto;
+                      border: none;
+                      width: 195px;
+                      height: 40px;
+                      font-size: 20px;
+
+                    }
+
+                    #email{
+                      color:white;
+                      margin-left :20px;
+                      border: none;
+                      width: 195px;
+                      height: 40px;
+                      font-size: 20px;
+
+                    }
+
+                    #caixadesenha{
+                      position: relative;
+                      top: 700px;
+                      left: 800px;
+                      
+                    }
+                    #interface{
+                    position: absolute;
+                    border: 10px solid #000000;
+                    border-radius: 10px;
+                    margin: auto;
+                    width: 450px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                  }
+                    /* o tamanho das caixas*/
+
+                    input, select{
+                      border-radius: 20px;
+                      height: 20px;
+                      border: none;
+
+                    }
+                   /*Botão de entrada*/
+                  button{
+                      background-color: dodgerblue;
+                      border: none;
+                      padding: 15px;
+                      width: 80px;
+                      color: black;
+                      font-size: 15px;
+                      cursor: pointer;
+                      border-radius: 10px;
+                      background-color: deepskyblue;
+
+                    }
+                    /*tamanho da letra das caixas*/
+                    input{
+                    
+                      padding: 10px;
+                      border: none;
+                      outline: double;
+                      font-size: 15px;
+                    }
+            </style>
