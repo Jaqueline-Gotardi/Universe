@@ -2,6 +2,8 @@
 
 Este projeto apresenta uma página web com visual imersivo inspirado no universo. Criado durante minha jornada de estudos em Desenvolvimento Web Full Stack, o objetivo é explorar conceitos de design visual, posicionamento de elementos, tipografia e integração de imagens com layout responsivo básico.
 
+![Capa do Projeto](assets/capa.png)
+
 ## 🔗 Acesse o Projeto
 
 👉 [Clique aqui para visualizar](https://jaqueline-gotardi.github.io/Universe/)
